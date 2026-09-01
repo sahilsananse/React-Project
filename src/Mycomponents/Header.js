@@ -8,6 +8,7 @@ export default function Header(props) {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
+          
             {props.title}
           </Link>
 
